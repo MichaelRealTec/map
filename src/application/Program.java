@@ -12,7 +12,7 @@ public class Program {
 		cookies.put("phone", "99711122");
 		
 		cookies.remove("email"); // remove o email
-		cookies.put("phone", "99771133");
+		cookies.put("phone", "99771133"); // Vai sobreescrever o valor anterior
 		
 		System.out.println("All COOKIES: ");
 		for (String key : cookies.keySet()) {
