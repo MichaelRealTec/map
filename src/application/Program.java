@@ -14,6 +14,9 @@ public class Program {
 		cookies.remove("email"); // remove o email
 		cookies.put("phone", "99771133"); // Vai sobreescrever o valor anterior
 		
+		
+		System.out.println("Contains 'phone' key: " + cookies.containsKey("phone"));
+		
 		System.out.println("All COOKIES: ");
 		for (String key : cookies.keySet()) {
 			System.out.println(key + ": " + cookies.get(key));
